@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		640617A01EA467C900FC11AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6406179F1EA467C900FC11AF /* main.m */; };
+		640617A31EA467C900FC11AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 640617A21EA467C900FC11AF /* AppDelegate.m */; };
+		640617A91EA467C900FC11AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640617A71EA467C900FC11AF /* Main.storyboard */; };
+		640617AB1EA467C900FC11AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640617AA1EA467C900FC11AF /* Assets.xcassets */; };
+		640617AE1EA467C900FC11AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640617AC1EA467C900FC11AF /* LaunchScreen.storyboard */; };
+		640617B91EA467CA00FC11AF /* ThemeAndNightModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 640617B81EA467CA00FC11AF /* ThemeAndNightModeTests.m */; };
+		640617C41EA467CA00FC11AF /* ThemeAndNightModeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 640617C31EA467CA00FC11AF /* ThemeAndNightModeUITests.m */; };
+		640617D41EA4680900FC11AF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640617D31EA4680900FC11AF /* MainViewController.m */; };
+		640617D81EA4697900FC11AF /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 640617D71EA4697900FC11AF /* MainCollectionViewCell.m */; };
+		640617DC1EA46AC000FC11AF /* UIColor+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 640617DB1EA46AC000FC11AF /* UIColor+Color.m */; };
+		640617DF1EA471BB00FC11AF /* NightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640617DE1EA471BB00FC11AF /* NightViewController.m */; };
+		640617E61EA4723600FC11AF /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640617E51EA4723600FC11AF /* TabBarViewController.m */; };
+		640617E91EA472D200FC11AF /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 640617E81EA472D200FC11AF /* UIImage+Extension.m */; };
+		640617EB1EA4739000FC11AF /* colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 640617EA1EA4739000FC11AF /* colors.plist */; };
+		640617EE1EA4822900FC11AF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640617ED1EA4822900FC11AF /* BaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		640617B51EA467CA00FC11AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 640617931EA467C900FC11AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6406179A1EA467C900FC11AF;
+			remoteInfo = ThemeAndNightMode;
+		};
+		640617C01EA467CA00FC11AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 640617931EA467C900FC11AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6406179A1EA467C900FC11AF;
+			remoteInfo = ThemeAndNightMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6406179B1EA467C900FC11AF /* ThemeAndNightMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemeAndNightMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6406179F1EA467C900FC11AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		640617A11EA467C900FC11AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		640617A21EA467C900FC11AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		640617A81EA467C900FC11AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		640617AA1EA467C900FC11AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		640617AD1EA467C900FC11AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		640617AF1EA467C900FC11AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640617B41EA467CA00FC11AF /* ThemeAndNightModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeAndNightModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		640617B81EA467CA00FC11AF /* ThemeAndNightModeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeAndNightModeTests.m; sourceTree = "<group>"; };
+		640617BA1EA467CA00FC11AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640617BF1EA467CA00FC11AF /* ThemeAndNightModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeAndNightModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		640617C31EA467CA00FC11AF /* ThemeAndNightModeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeAndNightModeUITests.m; sourceTree = "<group>"; };
+		640617C51EA467CA00FC11AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640617D21EA4680900FC11AF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		640617D31EA4680900FC11AF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		640617D51EA4682F00FC11AF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		640617D61EA4697900FC11AF /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewCell.h; sourceTree = "<group>"; };
+		640617D71EA4697900FC11AF /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
+		640617DA1EA46AC000FC11AF /* UIColor+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Color.h"; sourceTree = "<group>"; };
+		640617DB1EA46AC000FC11AF /* UIColor+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Color.m"; sourceTree = "<group>"; };
+		640617DD1EA471BB00FC11AF /* NightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NightViewController.h; sourceTree = "<group>"; };
+		640617DE1EA471BB00FC11AF /* NightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NightViewController.m; sourceTree = "<group>"; };
+		640617E41EA4723600FC11AF /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		640617E51EA4723600FC11AF /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		640617E71EA472D200FC11AF /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		640617E81EA472D200FC11AF /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		640617EA1EA4739000FC11AF /* colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = colors.plist; sourceTree = "<group>"; };
+		640617EC1EA4822900FC11AF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		640617ED1EA4822900FC11AF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		640617981EA467C900FC11AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640617B11EA467CA00FC11AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640617BC1EA467CA00FC11AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		640617921EA467C900FC11AF = {
+			isa = PBXGroup;
+			children = (
+				6406179D1EA467C900FC11AF /* ThemeAndNightMode */,
+				640617B71EA467CA00FC11AF /* ThemeAndNightModeTests */,
+				640617C21EA467CA00FC11AF /* ThemeAndNightModeUITests */,
+				6406179C1EA467C900FC11AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6406179C1EA467C900FC11AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6406179B1EA467C900FC11AF /* ThemeAndNightMode.app */,
+				640617B41EA467CA00FC11AF /* ThemeAndNightModeTests.xctest */,
+				640617BF1EA467CA00FC11AF /* ThemeAndNightModeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6406179D1EA467C900FC11AF /* ThemeAndNightMode */ = {
+			isa = PBXGroup;
+			children = (
+				640617E31EA4723600FC11AF /* OtherViewController */,
+				640617D91EA46A9700FC11AF /* Category */,
+				640617D11EA467F400FC11AF /* Main */,
+				640617A11EA467C900FC11AF /* AppDelegate.h */,
+				640617A21EA467C900FC11AF /* AppDelegate.m */,
+				640617A71EA467C900FC11AF /* Main.storyboard */,
+				640617AA1EA467C900FC11AF /* Assets.xcassets */,
+				640617AC1EA467C900FC11AF /* LaunchScreen.storyboard */,
+				640617AF1EA467C900FC11AF /* Info.plist */,
+				6406179E1EA467C900FC11AF /* Supporting Files */,
+			);
+			path = ThemeAndNightMode;
+			sourceTree = "<group>";
+		};
+		6406179E1EA467C900FC11AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6406179F1EA467C900FC11AF /* main.m */,
+				640617D51EA4682F00FC11AF /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		640617B71EA467CA00FC11AF /* ThemeAndNightModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				640617B81EA467CA00FC11AF /* ThemeAndNightModeTests.m */,
+				640617BA1EA467CA00FC11AF /* Info.plist */,
+			);
+			path = ThemeAndNightModeTests;
+			sourceTree = "<group>";
+		};
+		640617C21EA467CA00FC11AF /* ThemeAndNightModeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				640617C31EA467CA00FC11AF /* ThemeAndNightModeUITests.m */,
+				640617C51EA467CA00FC11AF /* Info.plist */,
+			);
+			path = ThemeAndNightModeUITests;
+			sourceTree = "<group>";
+		};
+		640617D11EA467F400FC11AF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				640617D21EA4680900FC11AF /* MainViewController.h */,
+				640617D31EA4680900FC11AF /* MainViewController.m */,
+				640617D61EA4697900FC11AF /* MainCollectionViewCell.h */,
+				640617D71EA4697900FC11AF /* MainCollectionViewCell.m */,
+				640617DD1EA471BB00FC11AF /* NightViewController.h */,
+				640617DE1EA471BB00FC11AF /* NightViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		640617D91EA46A9700FC11AF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				640617E71EA472D200FC11AF /* UIImage+Extension.h */,
+				640617E81EA472D200FC11AF /* UIImage+Extension.m */,
+				640617DA1EA46AC000FC11AF /* UIColor+Color.h */,
+				640617DB1EA46AC000FC11AF /* UIColor+Color.m */,
+				640617EA1EA4739000FC11AF /* colors.plist */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		640617E31EA4723600FC11AF /* OtherViewController */ = {
+			isa = PBXGroup;
+			children = (
+				640617E41EA4723600FC11AF /* TabBarViewController.h */,
+				640617E51EA4723600FC11AF /* TabBarViewController.m */,
+				640617EC1EA4822900FC11AF /* BaseViewController.h */,
+				640617ED1EA4822900FC11AF /* BaseViewController.m */,
+			);
+			path = OtherViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6406179A1EA467C900FC11AF /* ThemeAndNightMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 640617C81EA467CA00FC11AF /* Build configuration list for PBXNativeTarget "ThemeAndNightMode" */;
+			buildPhases = (
+				640617971EA467C900FC11AF /* Sources */,
+				640617981EA467C900FC11AF /* Frameworks */,
+				640617991EA467C900FC11AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThemeAndNightMode;
+			productName = ThemeAndNightMode;
+			productReference = 6406179B1EA467C900FC11AF /* ThemeAndNightMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		640617B31EA467CA00FC11AF /* ThemeAndNightModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 640617CB1EA467CA00FC11AF /* Build configuration list for PBXNativeTarget "ThemeAndNightModeTests" */;
+			buildPhases = (
+				640617B01EA467CA00FC11AF /* Sources */,
+				640617B11EA467CA00FC11AF /* Frameworks */,
+				640617B21EA467CA00FC11AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				640617B61EA467CA00FC11AF /* PBXTargetDependency */,
+			);
+			name = ThemeAndNightModeTests;
+			productName = ThemeAndNightModeTests;
+			productReference = 640617B41EA467CA00FC11AF /* ThemeAndNightModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		640617BE1EA467CA00FC11AF /* ThemeAndNightModeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 640617CE1EA467CA00FC11AF /* Build configuration list for PBXNativeTarget "ThemeAndNightModeUITests" */;
+			buildPhases = (
+				640617BB1EA467CA00FC11AF /* Sources */,
+				640617BC1EA467CA00FC11AF /* Frameworks */,
+				640617BD1EA467CA00FC11AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				640617C11EA467CA00FC11AF /* PBXTargetDependency */,
+			);
+			name = ThemeAndNightModeUITests;
+			productName = ThemeAndNightModeUITests;
+			productReference = 640617BF1EA467CA00FC11AF /* ThemeAndNightModeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		640617931EA467C900FC11AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = shen;
+				TargetAttributes = {
+					6406179A1EA467C900FC11AF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3LNCXDL3W9;
+						ProvisioningStyle = Automatic;
+					};
+					640617B31EA467CA00FC11AF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3LNCXDL3W9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6406179A1EA467C900FC11AF;
+					};
+					640617BE1EA467CA00FC11AF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3LNCXDL3W9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6406179A1EA467C900FC11AF;
+					};
+				};
+			};
+			buildConfigurationList = 640617961EA467C900FC11AF /* Build configuration list for PBXProject "ThemeAndNightMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 640617921EA467C900FC11AF;
+			productRefGroup = 6406179C1EA467C900FC11AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6406179A1EA467C900FC11AF /* ThemeAndNightMode */,
+				640617B31EA467CA00FC11AF /* ThemeAndNightModeTests */,
+				640617BE1EA467CA00FC11AF /* ThemeAndNightModeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		640617991EA467C900FC11AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640617EB1EA4739000FC11AF /* colors.plist in Resources */,
+				640617AE1EA467C900FC11AF /* LaunchScreen.storyboard in Resources */,
+				640617AB1EA467C900FC11AF /* Assets.xcassets in Resources */,
+				640617A91EA467C900FC11AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640617B21EA467CA00FC11AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640617BD1EA467CA00FC11AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		640617971EA467C900FC11AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640617A31EA467C900FC11AF /* AppDelegate.m in Sources */,
+				640617EE1EA4822900FC11AF /* BaseViewController.m in Sources */,
+				640617D41EA4680900FC11AF /* MainViewController.m in Sources */,
+				640617E61EA4723600FC11AF /* TabBarViewController.m in Sources */,
+				640617A01EA467C900FC11AF /* main.m in Sources */,
+				640617DC1EA46AC000FC11AF /* UIColor+Color.m in Sources */,
+				640617D81EA4697900FC11AF /* MainCollectionViewCell.m in Sources */,
+				640617DF1EA471BB00FC11AF /* NightViewController.m in Sources */,
+				640617E91EA472D200FC11AF /* UIImage+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640617B01EA467CA00FC11AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640617B91EA467CA00FC11AF /* ThemeAndNightModeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640617BB1EA467CA00FC11AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640617C41EA467CA00FC11AF /* ThemeAndNightModeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		640617B61EA467CA00FC11AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6406179A1EA467C900FC11AF /* ThemeAndNightMode */;
+			targetProxy = 640617B51EA467CA00FC11AF /* PBXContainerItemProxy */;
+		};
+		640617C11EA467CA00FC11AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6406179A1EA467C900FC11AF /* ThemeAndNightMode */;
+			targetProxy = 640617C01EA467CA00FC11AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		640617A71EA467C900FC11AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				640617A81EA467C900FC11AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		640617AC1EA467C900FC11AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				640617AD1EA467C900FC11AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		640617C61EA467CA00FC11AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		640617C71EA467CA00FC11AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		640617C91EA467CA00FC11AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ThemeAndNightMode/PrefixHeader.pch;
+				INFOPLIST_FILE = ThemeAndNightMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenn13.ThemeAndNightMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		640617CA1EA467CA00FC11AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ThemeAndNightMode/PrefixHeader.pch;
+				INFOPLIST_FILE = ThemeAndNightMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenn13.ThemeAndNightMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		640617CC1EA467CA00FC11AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				INFOPLIST_FILE = ThemeAndNightModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenn13.ThemeAndNightModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemeAndNightMode.app/ThemeAndNightMode";
+			};
+			name = Debug;
+		};
+		640617CD1EA467CA00FC11AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				INFOPLIST_FILE = ThemeAndNightModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenn13.ThemeAndNightModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemeAndNightMode.app/ThemeAndNightMode";
+			};
+			name = Release;
+		};
+		640617CF1EA467CA00FC11AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				INFOPLIST_FILE = ThemeAndNightModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenn13.ThemeAndNightModeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThemeAndNightMode;
+			};
+			name = Debug;
+		};
+		640617D01EA467CA00FC11AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3LNCXDL3W9;
+				INFOPLIST_FILE = ThemeAndNightModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenn13.ThemeAndNightModeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThemeAndNightMode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		640617961EA467C900FC11AF /* Build configuration list for PBXProject "ThemeAndNightMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640617C61EA467CA00FC11AF /* Debug */,
+				640617C71EA467CA00FC11AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		640617C81EA467CA00FC11AF /* Build configuration list for PBXNativeTarget "ThemeAndNightMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640617C91EA467CA00FC11AF /* Debug */,
+				640617CA1EA467CA00FC11AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		640617CB1EA467CA00FC11AF /* Build configuration list for PBXNativeTarget "ThemeAndNightModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640617CC1EA467CA00FC11AF /* Debug */,
+				640617CD1EA467CA00FC11AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		640617CE1EA467CA00FC11AF /* Build configuration list for PBXNativeTarget "ThemeAndNightModeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640617CF1EA467CA00FC11AF /* Debug */,
+				640617D01EA467CA00FC11AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 640617931EA467C900FC11AF /* Project object */;
+}
